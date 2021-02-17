@@ -16,10 +16,12 @@
     ],
     "require": {
         "php": "^7.3",
-        "sylius/sylius": "~1.8.6",
+        "sylius/sylius": "v1.9.0-BETA.3",
         "symfony/dotenv": "^4.4",
         "symfony/flex": "^1.9",
-        "sylius/paypal-plugin": "^1.1"
+        "sylius/paypal-plugin": "^1.1",
+        "friendsofsymfony/oauth-server-bundle": ">2.0.0-alpha.0 ^2.0@dev",
+        "cweagans/composer-patches": "~1.0"
     },
     "require-dev": {
         "behat/behat": "^3.7",
@@ -83,11 +85,13 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": false
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false
+            "allow-contrib": false,
+            "require": "4.4.*"
         }
     }
 }
