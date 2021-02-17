@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.3",
-        "sylius/sylius": "v1.9.0-BETA.2",
+        "sylius/sylius": "v1.9.0-BETA.3",
         "symfony/dotenv": "^4.4",
         "symfony/flex": "^1.9",
         "sylius/paypal-plugin": "^1.1",
@@ -92,11 +92,6 @@
         "symfony": {
             "allow-contrib": false,
             "require": "4.4.*"
-        },
-        "patches": {
-            "sylius/sylius": {
-                "fix circular errors": "https://github.com/Sylius/Sylius/pull/12336.patch"
-            }
         }
     }
 }

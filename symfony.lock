@@ -1,0 +1,11 @@
+{
+    "aeon-php/calendar": {
+        "version": "0.15.0"
+    },
+    "dealerdirect/phpcodesniffer-composer-installer": {
+        "version": "v0.7.1"
+    },
+    "slevomat/coding-standard": {
+        "version": "6.4.1"
+    }
+}
